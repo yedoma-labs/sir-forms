@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+*.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+*.d.ts.map
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.turbo/
+
+# Debug
+.vscode-test/
+.history/
+
+# Optional: Keep lock file for reproducible builds (remove if using pnpm/yarn)
+# package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Internal review documents (not for git)
+REVIEW_*.md
+FINAL_STATUS.md
+SECURITY_CHECKLIST.md
+IMPLEMENTATION.md

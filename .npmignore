@@ -1,0 +1,68 @@
+# Source files (TypeScript sources not needed in published package)
+src/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Build configuration
+vite.config.ts
+tsconfig.json
+tsconfig.node.json
+vitest.config.ts
+biome.json
+
+# Development files
+.gitignore
+.npmignore
+.npmrc
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Documentation (keep README.md and CHANGELOG.md, exclude others)
+IMPLEMENTATION.md
+EXAMPLES.md
+SECURITY.md
+REVIEW_SUMMARY.md
+REVIEW_COMPLETE.md
+
+# Note: README.md and CHANGELOG.md are intentionally published
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+.cache/
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Examples and demos (if you add them later)
+examples/
+demo/
