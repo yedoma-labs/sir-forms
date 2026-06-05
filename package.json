@@ -2,6 +2,7 @@
   "name": "@yedoma-labs/sir-forms",
   "version": "0.1.0",
   "description": "Type-safe React Server Actions form library with progressive enhancement",
+  "packageManager": "pnpm@11.5.2",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

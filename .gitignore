@@ -60,9 +60,8 @@ Thumbs.db
 .vscode-test/
 .history/
 
-# Optional: Keep lock file for reproducible builds (remove if using pnpm/yarn)
-# package-lock.json
-pnpm-lock.yaml
+# Lock files (keep pnpm-lock.yaml, ignore others)
+package-lock.json
 yarn.lock
 
 # Internal review documents (not for git)
