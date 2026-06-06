@@ -1,5 +1,78 @@
 # Changelog
 
+## [0.2.0] - 2026-06-06
+
+### Breaking Changes
+- **[Minor]** Renamed `UseFormOptions` to `UseFormSubmitOptions` for clarity
+  - Impact: Only affects TypeScript type imports
+  - Migration: Replace type imports in your code
+
+### Features
+- **[Major]** Added React 19 support
+  - Updated peerDependencies: `^18.0.0 || ^19.0.0`
+  - Tested and verified with React 19.2.7
+  - Maintains backward compatibility with React 18
+- **[Minor]** Added `resetOnSuccess` option to `useFormSubmit`
+  - Configurable form reset behavior after successful submission
+  - Defaults to `true` (current behavior)
+- **[Minor]** Added `defaultValue` option to `useField`
+  - Supports custom default values for form fields
+  - Properly handles boolean types for checkboxes
+
+### Security Fixes
+- **[Critical]** Fixed double-submission vulnerability
+  - Added `isSubmitting` state guard to prevent concurrent submissions
+  - Protects against duplicate server actions and data corruption
+- **[Critical]** Added prototype pollution protection
+  - Blocks dangerous field names: `__proto__`, `constructor`, `prototype`
+  - Console warning emitted for blocked attempts
+- **[High]** Added field name sanitization for HTML IDs
+  - Prevents XSS injection via `aria-describedby` attributes
+  - Sanitizes field names to valid HTML ID format
+
+### Bug Fixes
+- **[Blocker]** Fixed `isSubmitting` state never being updated
+  - Now properly wired through FormContext
+  - Submission state correctly tracked
+- **[Blocker]** Fixed race condition in error clearing
+  - Changed to updater function pattern
+  - Errors now clear reliably on field value changes
+- **[Major]** Fixed radio button handling
+  - Now uses `.checked` property like checkboxes
+  - Previously incorrectly read `.value`
+- **[Major]** Fixed checkbox default value type mismatch
+  - Checkboxes now default to `false` instead of empty string
+  - Maintains type consistency
+- **[Major]** Fixed context value memoization
+  - Prevented cascade re-renders in large forms
+  - Improved performance significantly
+
+### Improvements
+- **[Major]** Bundle size reduction: 47% smaller
+  - Before: 9.17 KB gzipped
+  - After: 4.82 KB gzipped
+  - ES Module: 17.98 KB (was 40.01 KB)
+  - CommonJS: 8.16 KB (was 14.79 KB)
+- **[Minor]** Migrated from npm to pnpm
+  - Faster installs
+  - Stricter dependency management
+  - Workspace support ready
+- **[Minor]** Updated CI/CD workflows to use pnpm
+  - Fixed build ordering (build before test)
+  - Improved reliability
+- **[Minor]** Fixed Biome linter configuration
+  - Compatible with Biome v2.4.16
+  - Applied consistent code formatting
+
+### Documentation
+- Added JSDoc comments for error handling conventions
+- Enhanced `useServerAction` documentation
+- Documented error vs errors channels
+
+### Testing
+- All tests passing with React 19
+- Verified compatibility with React 18 and 19
+
 ## [0.1.0] - 2026-06-05
 
 ### Security Fixes
