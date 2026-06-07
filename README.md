@@ -1,5 +1,10 @@
 # Sir Forms (@yedoma-labs/sir-forms)
 
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized-mobile.png">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
+</picture>
+
 [![CI](https://github.com/yedoma-labs/sir-forms/actions/workflows/ci.yml/badge.svg)](https://github.com/yedoma-labs/sir-forms/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
 [![npm downloads](https://img.shields.io/npm/dm/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
