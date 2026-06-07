@@ -1,5 +1,13 @@
 # Sir Forms (@yedoma-labs/sir-forms)
 
+[![CI](https://github.com/yedoma-labs/sir-forms/actions/workflows/ci.yml/badge.svg)](https://github.com/yedoma-labs/sir-forms/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
+[![npm downloads](https://img.shields.io/npm/dm/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
+[![Node.js](https://img.shields.io/node/v/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x+-3178C6?logo=typescript&logoColor=white)](tsconfig.json)
+[![License](https://img.shields.io/npm/l/@yedoma-labs/sir-forms)](LICENSE)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@yedoma-labs/sir-forms)](https://bundlephobia.com/package/@yedoma-labs/sir-forms)
+
 Type-safe React Server Actions form library with progressive enhancement. Build forms that work without JavaScript using native form submission, with seamless client-side validation and error handling.
 
 **Sir** (сир) = "write/inscribe" in Yakut
