@@ -2,7 +2,7 @@
   "name": "@yedoma-labs/sir-forms",
   "version": "0.2.0",
   "description": "Type-safe React Server Actions form library with progressive enhancement",
-  "packageManager": "pnpm@11.5.2",
+  "packageManager": "pnpm@11.7.0",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -61,7 +61,7 @@
     "@vitest/coverage-v8": "^1.0.0",
     "react": "^19.2.7",
     "terser": "^5.48.0",
-    "typescript": "5.3.3",
+    "typescript": "6.0.3",
     "vite": "^6.4.2",
     "vite-plugin-dts": "^5.0.2",
     "vitest": "^4.1.0"
