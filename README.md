@@ -9,7 +9,7 @@
 [![npm version](https://img.shields.io/npm/v/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
 [![npm downloads](https://img.shields.io/npm/dm/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
 [![Node.js](https://img.shields.io/node/v/@yedoma-labs/sir-forms)](https://www.npmjs.com/package/@yedoma-labs/sir-forms)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x+-3178C6?logo=typescript&logoColor=white)](tsconfig.json)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.x+-3178C6?logo=typescript&logoColor=white)](tsconfig.json)
 [![License](https://img.shields.io/npm/l/@yedoma-labs/sir-forms)](LICENSE)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/@yedoma-labs/sir-forms)](https://bundlephobia.com/package/@yedoma-labs/sir-forms)
 
