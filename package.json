@@ -58,7 +58,7 @@
     "react": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
+    "@biomejs/biome": "2.5.15",
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
     "@semantic-release/changelog": "^7.0.0",
@@ -68,18 +68,18 @@
     "@semantic-release/github": "^12.0.10",
     "@semantic-release/npm": "^13.2.0",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "@types/node": "25.9.3",
-    "@types/react": "^19.2.17",
+    "@types/node": "26.6.5",
+    "@types/react": "^19.3.0",
     "@typescript/typescript6": "^6.0.2",
-    "@vitejs/plugin-react": "^6.0.2",
-    "@vitest/coverage-v8": "^4.1.9",
-    "react": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@vitest/coverage-v8": "^5.0.3",
+    "react": "^19.3.0",
     "semantic-release": "^25.0.9",
-    "simple-git-hooks": "^2.13.1",
-    "terser": "^5.48.0",
+    "simple-git-hooks": "^2.14.0",
+    "terser": "^5.51.2",
     "typescript": "7.0.2",
-    "vite": "^8.0.16",
-    "vite-plugin-dts": "^5.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-dts": "^5.1.2",
     "vitest": "^5.0.3"
   }
 }
