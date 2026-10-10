@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/yedoma-labs/sir-forms/compare/v0.3.1...v0.3.2) (2026-10-10)
+
+
+### Bug Fixes
+
+* **build:** emit type declarations to dist root ([#10](https://github.com/yedoma-labs/sir-forms/issues/10)) ([994b6d4](https://github.com/yedoma-labs/sir-forms/commit/994b6d40d78c89706aabdfd9b823ffea15b19140))
+
 ## [0.3.1](https://github.com/yedoma-labs/sir-forms/compare/v0.3.0...v0.3.1) (2026-10-10)
 
 
