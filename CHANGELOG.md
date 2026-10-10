@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/yedoma-labs/sir-forms/compare/v0.3.0...v0.3.1) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** override postcss and source-map-js to patched versions ([#9](https://github.com/yedoma-labs/sir-forms/issues/9)) ([8a0fe40](https://github.com/yedoma-labs/sir-forms/commit/8a0fe40e6728691601c6eea5ac881346f320f86b))
+
 # [0.3.0](https://github.com/yedoma-labs/sir-forms/compare/v0.2.0...v0.3.0) (2026-10-10)
 
 
