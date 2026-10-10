@@ -1,3 +1,16 @@
+# [0.3.0](https://github.com/yedoma-labs/sir-forms/compare/v0.2.0...v0.3.0) (2026-10-10)
+
+
+### Bug Fixes
+
+* typescript 6.0.3 compatibility - add ignoreDeprecations and types config ([4d88909](https://github.com/yedoma-labs/sir-forms/commit/4d88909cc50f97213de7d37e577877a48b37324f))
+* typescript 6.0.3 compatibility - add ignoreDeprecations and types config ([b60d2f2](https://github.com/yedoma-labs/sir-forms/commit/b60d2f24c6676824792f4b93d7afcc881182b610))
+
+
+### Features
+
+* add React 19 compatibility ([712e36f](https://github.com/yedoma-labs/sir-forms/commit/712e36f39afdca96bd576e7b59b824ec4361b73b))
+
 # Changelog
 
 ## [0.2.0] - 2026-06-06
