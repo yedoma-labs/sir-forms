@@ -2,7 +2,7 @@
   "name": "@yedoma-labs/sir-forms",
   "version": "0.3.2",
   "description": "Type-safe React Server Actions form library with progressive enhancement",
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -58,9 +58,9 @@
     "react": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
-    "@commitlint/cli": "^21.2.3",
-    "@commitlint/config-conventional": "^21.2.3",
+    "@biomejs/biome": "2.6.3",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/exec": "^7.1.0",
@@ -78,7 +78,7 @@
     "simple-git-hooks": "^2.14.0",
     "terser": "^5.51.2",
     "typescript": "7.0.2",
-    "vite": "^8.3.4",
+    "vite": "^8.3.5",
     "vite-plugin-dts": "^5.1.2",
     "vitest": "^5.0.5"
   }
