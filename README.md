@@ -255,6 +255,24 @@ async function submitContactForm(formData: FormData) {
 }
 ```
 
+To get the same values shape that `FormProvider` uses, convert the `FormData` with `formDataToValues`:
+
+```tsx
+import { formDataToValues } from '@yedoma-labs/sir-forms'
+
+async function submitContactForm(formData: FormData) {
+  const values = formDataToValues(formData)
+  // { email: 'jane@example.com', interests: ['docs', 'news'] }
+  // Repeated keys (e.g. a checkbox group sharing one name) become arrays.
+  // Files are returned as File objects. `__proto__`, `constructor` and `prototype` are skipped.
+  // Unchecked checkboxes are absent, as they are not submitted by the browser.
+
+  return { success: true }
+}
+```
+
+`formDataToValues(formData: FormData): Record<string, string | File | Array<string | File>>`
+
 ## Architecture
 
 ```
@@ -268,6 +286,7 @@ useForm() → get state from context
 useField(name) → bind input + expose field state
 useFormSubmit() → handle submission + error replay
 useServerAction() → call server action safely
+formDataToValues() → FormData → values record (server side, no JS)
 ```
 
 ## Best Practices
@@ -285,6 +304,7 @@ sir-forms/
 ├── src/
 │   ├── index.ts                 # Main exports
 │   ├── types.ts                 # Type definitions
+│   ├── formData.ts              # FormData → values conversion (progressive enhancement)
 │   ├── context/FormContext.tsx  # Form state context
 │   ├── hooks/
 │   │   ├── useField.ts          # Field binding hook

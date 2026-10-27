@@ -4,6 +4,8 @@
  */
 
 export { FormProvider, useForm } from './context/FormContext';
+export type { FormDataValue } from './formData';
+export { formDataToValues } from './formData';
 export { useField } from './hooks/useField';
 export { useFormSubmit } from './hooks/useFormSubmit';
 export { useServerAction } from './hooks/useServerAction';
