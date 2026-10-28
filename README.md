@@ -15,8 +15,6 @@
 
 Type-safe React Server Actions form library with progressive enhancement. Build forms that work without JavaScript using native form submission, with seamless client-side validation and error handling.
 
-**Sir** (сир) = "write/inscribe" in Yakut
-
 ## Features
 
 - ✅ **Server Actions Integration** — Direct integration with React Server Components and Server Actions
@@ -357,5 +355,3 @@ Part of the **@yedoma-labs** ecosystem:
 - `bylyt-env-guard` — Environment variable validation
 - `sir-forms` — Server Actions forms
 - `ilte-fetch` — Type-safe HTTP client (coming soon)
-
-Yakut naming convention: *sir* = "write/inscribe"
